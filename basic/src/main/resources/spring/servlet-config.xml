@@ -33,7 +33,7 @@
     </beans:bean>
     <!-- 업로드 파일 저장 경로 빈 등록 -->
     <beans:bean id="uploadPath" class="java.lang.String">
-    	<beans:constructor-arg value="D:\spring_hsg\workspace\basic\src\main\webapp\resources\upload" />
+    	<beans:constructor-arg value="C:\Users\sonex\git\SpringBasic\basic\src\main\webapp\resources\upload" />
     </beans:bean>
     
     <!-- 인터셉터 클래스 빈 등록 -->

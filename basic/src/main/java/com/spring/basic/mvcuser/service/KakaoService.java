@@ -135,7 +135,7 @@ public class KakaoService implements IOAuthLoginService, OAuthValue {
 			String nickname = kAccount.get("profile").getAsJsonObject().get("nickname").getAsString();
 			String profileImagePath = kAccount.get("profile").getAsJsonObject().get("profile_image_url").getAsString();
 			String email = kAccount.get("email").getAsString();
-			String gender = kAccount.get("gender").getAsString();
+			//String gender = kAccount.get("gender").getAsString();
 			
 			//System.out.println("카톡 닉네임: " + nickname);
 			//System.out.println("카톡 프로필 경로: " + profileImagePath);
@@ -146,7 +146,7 @@ public class KakaoService implements IOAuthLoginService, OAuthValue {
 			kakaoUserMap.put("nickname", nickname);
 			kakaoUserMap.put("profileImagePath", profileImagePath);
 			kakaoUserMap.put("email", email);
-			kakaoUserMap.put("gender", gender);
+			//kakaoUserMap.put("gender", gender);
 			
 			return kakaoUserMap;
 

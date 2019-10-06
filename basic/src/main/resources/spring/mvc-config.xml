@@ -11,7 +11,7 @@
 		<property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
 		<property name="jdbcUrl" value="jdbc:mysql://localhost:3306/spring8?serverTimezone=Asia/Seoul" />
 		<property name="username" value="root" />
-		<property name="password" value="mysql" />
+		<property name="password" value="MinChulOh12##" />
 	</bean>
 	
 	<!-- Connection Pool 핵심 객체 등록 -->
